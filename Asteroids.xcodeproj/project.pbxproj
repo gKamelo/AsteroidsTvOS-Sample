@@ -186,7 +186,7 @@
 		AE96CF201C2202740064D380 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Kamil Grzegorzewicz";
 				TargetAttributes = {
@@ -293,11 +293,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = AsteroidsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.kamelo.tests.AsteroidsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asteroids.app/Asteroids";
 			};
 			name = Debug;
@@ -306,6 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AsteroidsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.kamelo.tests.AsteroidsTests;
@@ -405,7 +408,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.kamelo.asteroids;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TVOS_DEPLOYMENT_TARGET = 9.1;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -419,7 +422,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.kamelo.asteroids;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TVOS_DEPLOYMENT_TARGET = 9.1;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
