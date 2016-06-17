@@ -34,3 +34,10 @@ struct GameConstant {
     }
     
 }
+
+enum CollisionCategory: UInt32 {
+
+    case Ship = 1
+    case Bullet = 2
+    case Asteroid = 4
+}
