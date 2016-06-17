@@ -18,6 +18,10 @@
 		AE32299B1D149709009E9AC5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3229981D149709009E9AC5 /* GameScene.swift */; };
 		AE32299C1D149709009E9AC5 /* AsteroidsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3229991D149709009E9AC5 /* AsteroidsGenerator.swift */; };
 		AE32299E1D149840009E9AC5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32299D1D149840009E9AC5 /* GameViewController.swift */; };
+		AE3229A01D1499CD009E9AC5 /* KeyboardInputResolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32299F1D1499CD009E9AC5 /* KeyboardInputResolverTests.swift */; };
+		AE3229A21D149D9A009E9AC5 /* RemoteInputResolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3229A11D149D9A009E9AC5 /* RemoteInputResolverTests.swift */; };
+		AE3229A41D149DCF009E9AC5 /* MockUIPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3229A31D149DCF009E9AC5 /* MockUIPress.swift */; };
+		AE3229A81D149F49009E9AC5 /* MockUIPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3229A71D149F49009E9AC5 /* MockUIPanGestureRecognizer.swift */; };
 		AE96CF2C1C2202740064D380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE96CF2B1C2202740064D380 /* AppDelegate.swift */; };
 		AE96CF341C2202740064D380 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE96CF331C2202740064D380 /* Game.xcassets */; };
 		AE96CF371C2202740064D380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE96CF351C2202740064D380 /* Main.storyboard */; };
@@ -47,6 +51,10 @@
 		AE3229981D149709009E9AC5 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		AE3229991D149709009E9AC5 /* AsteroidsGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsteroidsGenerator.swift; sourceTree = "<group>"; };
 		AE32299D1D149840009E9AC5 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AE32299F1D1499CD009E9AC5 /* KeyboardInputResolverTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardInputResolverTests.swift; sourceTree = "<group>"; };
+		AE3229A11D149D9A009E9AC5 /* RemoteInputResolverTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteInputResolverTests.swift; sourceTree = "<group>"; };
+		AE3229A31D149DCF009E9AC5 /* MockUIPress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockUIPress.swift; sourceTree = "<group>"; };
+		AE3229A71D149F49009E9AC5 /* MockUIPanGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockUIPanGestureRecognizer.swift; sourceTree = "<group>"; };
 		AE7A44F61C516F7700B55A16 /* AsteroidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsteroidsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE7A44FA1C516F7700B55A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE96CF281C2202740064D380 /* Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,9 +105,29 @@
 			name = Controll;
 			sourceTree = "<group>";
 		};
+		AE3229A51D149DD5009E9AC5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AE3229A31D149DCF009E9AC5 /* MockUIPress.swift */,
+				AE3229A71D149F49009E9AC5 /* MockUIPanGestureRecognizer.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		AE3229A61D149DE2009E9AC5 /* ControllTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE32299F1D1499CD009E9AC5 /* KeyboardInputResolverTests.swift */,
+				AE3229A11D149D9A009E9AC5 /* RemoteInputResolverTests.swift */,
+			);
+			name = ControllTests;
+			sourceTree = "<group>";
+		};
 		AE7A44F71C516F7700B55A16 /* AsteroidsTests */ = {
 			isa = PBXGroup;
 			children = (
+				AE3229A51D149DD5009E9AC5 /* Helpers */,
+				AE3229A61D149DE2009E9AC5 /* ControllTests */,
 				AE7A44FA1C516F7700B55A16 /* Info.plist */,
 			);
 			path = AsteroidsTests;
@@ -244,6 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3229A21D149D9A009E9AC5 /* RemoteInputResolverTests.swift in Sources */,
+				AE3229A01D1499CD009E9AC5 /* KeyboardInputResolverTests.swift in Sources */,
+				AE3229A81D149F49009E9AC5 /* MockUIPanGestureRecognizer.swift in Sources */,
+				AE3229A41D149DCF009E9AC5 /* MockUIPress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
