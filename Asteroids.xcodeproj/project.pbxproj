@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE96CF2C1C2202740064D380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE96CF2B1C2202740064D380 /* AppDelegate.swift */; };
+		AE96CF341C2202740064D380 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE96CF331C2202740064D380 /* Game.xcassets */; };
+		AE96CF371C2202740064D380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE96CF351C2202740064D380 /* Main.storyboard */; };
+		AEF9959C1C55192400CDD84B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF9959B1C55192400CDD84B /* Assets.xcassets */; };
+		AEFFB2361D1484AD00604D09 /* LaunchViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFFB2351D1484AD00604D09 /* LaunchViewContoller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE7A44FB1C516F7700B55A16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE96CF201C2202740064D380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE96CF271C2202740064D380;
+			remoteInfo = Asteroids;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE7A44F61C516F7700B55A16 /* AsteroidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsteroidsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7A44FA1C516F7700B55A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE96CF281C2202740064D380 /* Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE96CF2B1C2202740064D380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE96CF331C2202740064D380 /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
+		AE96CF361C2202740064D380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE96CF3A1C2202740064D380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF9959B1C55192400CDD84B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEFFB2351D1484AD00604D09 /* LaunchViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewContoller.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE7A44F31C516F7700B55A16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE96CF251C2202740064D380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE7A44F71C516F7700B55A16 /* AsteroidsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE7A44FA1C516F7700B55A16 /* Info.plist */,
+			);
+			path = AsteroidsTests;
+			sourceTree = "<group>";
+		};
+		AE96CF1F1C2202740064D380 = {
+			isa = PBXGroup;
+			children = (
+				AE96CF2A1C2202740064D380 /* Asteroids */,
+				AE7A44F71C516F7700B55A16 /* AsteroidsTests */,
+				AE96CF291C2202740064D380 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE96CF291C2202740064D380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE96CF281C2202740064D380 /* Asteroids.app */,
+				AE7A44F61C516F7700B55A16 /* AsteroidsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE96CF2A1C2202740064D380 /* Asteroids */ = {
+			isa = PBXGroup;
+			children = (
+				AE96CF2B1C2202740064D380 /* AppDelegate.swift */,
+				AEFFB2351D1484AD00604D09 /* LaunchViewContoller.swift */,
+				AEF9959B1C55192400CDD84B /* Assets.xcassets */,
+				AE96CF331C2202740064D380 /* Game.xcassets */,
+				AE96CF351C2202740064D380 /* Main.storyboard */,
+				AE96CF3A1C2202740064D380 /* Info.plist */,
+			);
+			path = Asteroids;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE7A44F51C516F7700B55A16 /* AsteroidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7A44FF1C516F7700B55A16 /* Build configuration list for PBXNativeTarget "AsteroidsTests" */;
+			buildPhases = (
+				AE7A44F21C516F7700B55A16 /* Sources */,
+				AE7A44F31C516F7700B55A16 /* Frameworks */,
+				AE7A44F41C516F7700B55A16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE7A44FC1C516F7700B55A16 /* PBXTargetDependency */,
+			);
+			name = AsteroidsTests;
+			productName = AsteroidsTests;
+			productReference = AE7A44F61C516F7700B55A16 /* AsteroidsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE96CF271C2202740064D380 /* Asteroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE96CF3D1C2202740064D380 /* Build configuration list for PBXNativeTarget "Asteroids" */;
+			buildPhases = (
+				AE96CF241C2202740064D380 /* Sources */,
+				AE96CF251C2202740064D380 /* Frameworks */,
+				AE96CF261C2202740064D380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Asteroids;
+			productName = Asteroids;
+			productReference = AE96CF281C2202740064D380 /* Asteroids.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE96CF201C2202740064D380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kamil Grzegorzewicz";
+				TargetAttributes = {
+					AE7A44F51C516F7700B55A16 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AE96CF271C2202740064D380;
+					};
+					AE96CF271C2202740064D380 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = SN5ELANA7L;
+					};
+				};
+			};
+			buildConfigurationList = AE96CF231C2202740064D380 /* Build configuration list for PBXProject "Asteroids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE96CF1F1C2202740064D380;
+			productRefGroup = AE96CF291C2202740064D380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE96CF271C2202740064D380 /* Asteroids */,
+				AE7A44F51C516F7700B55A16 /* AsteroidsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE7A44F41C516F7700B55A16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE96CF261C2202740064D380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE96CF371C2202740064D380 /* Main.storyboard in Resources */,
+				AEF9959C1C55192400CDD84B /* Assets.xcassets in Resources */,
+				AE96CF341C2202740064D380 /* Game.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE7A44F21C516F7700B55A16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE96CF241C2202740064D380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE96CF2C1C2202740064D380 /* AppDelegate.swift in Sources */,
+				AEFFB2361D1484AD00604D09 /* LaunchViewContoller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE7A44FC1C516F7700B55A16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE96CF271C2202740064D380 /* Asteroids */;
+			targetProxy = AE7A44FB1C516F7700B55A16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE96CF351C2202740064D380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE96CF361C2202740064D380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE7A44FD1C516F7700B55A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = AsteroidsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.kamelo.tests.AsteroidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asteroids.app/Asteroids";
+			};
+			name = Debug;
+		};
+		AE7A44FE1C516F7700B55A16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AsteroidsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.kamelo.tests.AsteroidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asteroids.app/Asteroids";
+			};
+			name = Release;
+		};
+		AE96CF3B1C2202740064D380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		AE96CF3C1C2202740064D380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE96CF3E1C2202740064D380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Brand Assets";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Asteroids/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.kamelo.asteroids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		AE96CF3F1C2202740064D380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Brand Assets";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Asteroids/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.kamelo.asteroids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE7A44FF1C516F7700B55A16 /* Build configuration list for PBXNativeTarget "AsteroidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7A44FD1C516F7700B55A16 /* Debug */,
+				AE7A44FE1C516F7700B55A16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE96CF231C2202740064D380 /* Build configuration list for PBXProject "Asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE96CF3B1C2202740064D380 /* Debug */,
+				AE96CF3C1C2202740064D380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE96CF3D1C2202740064D380 /* Build configuration list for PBXNativeTarget "Asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE96CF3E1C2202740064D380 /* Debug */,
+				AE96CF3F1C2202740064D380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE96CF201C2202740064D380 /* Project object */;
+}
