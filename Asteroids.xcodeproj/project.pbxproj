@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE3229891D149400009E9AC5 /* Asteroid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3229851D149400009E9AC5 /* Asteroid.swift */; };
+		AE32298A1D149400009E9AC5 /* Spaceship.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3229861D149400009E9AC5 /* Spaceship.swift */; };
+		AE32298B1D149400009E9AC5 /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3229871D149400009E9AC5 /* Bullet.swift */; };
+		AE32298C1D149400009E9AC5 /* GameElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3229881D149400009E9AC5 /* GameElement.swift */; };
+		AE32298F1D149422009E9AC5 /* GameConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32298E1D149422009E9AC5 /* GameConstant.swift */; };
 		AE96CF2C1C2202740064D380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE96CF2B1C2202740064D380 /* AppDelegate.swift */; };
 		AE96CF341C2202740064D380 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE96CF331C2202740064D380 /* Game.xcassets */; };
 		AE96CF371C2202740064D380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE96CF351C2202740064D380 /* Main.storyboard */; };
@@ -25,6 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE3229851D149400009E9AC5 /* Asteroid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Asteroid.swift; sourceTree = "<group>"; };
+		AE3229861D149400009E9AC5 /* Spaceship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spaceship.swift; sourceTree = "<group>"; };
+		AE3229871D149400009E9AC5 /* Bullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
+		AE3229881D149400009E9AC5 /* GameElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameElement.swift; sourceTree = "<group>"; };
+		AE32298E1D149422009E9AC5 /* GameConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameConstant.swift; sourceTree = "<group>"; };
 		AE7A44F61C516F7700B55A16 /* AsteroidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsteroidsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE7A44FA1C516F7700B55A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE96CF281C2202740064D380 /* Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +64,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE32298D1D149408009E9AC5 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				AE3229881D149400009E9AC5 /* GameElement.swift */,
+				AE3229851D149400009E9AC5 /* Asteroid.swift */,
+				AE3229861D149400009E9AC5 /* Spaceship.swift */,
+				AE3229871D149400009E9AC5 /* Bullet.swift */,
+			);
+			name = Elements;
+			sourceTree = "<group>";
+		};
 		AE7A44F71C516F7700B55A16 /* AsteroidsTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,7 +104,9 @@
 		AE96CF2A1C2202740064D380 /* Asteroids */ = {
 			isa = PBXGroup;
 			children = (
+				AE32298D1D149408009E9AC5 /* Elements */,
 				AE96CF2B1C2202740064D380 /* AppDelegate.swift */,
+				AE32298E1D149422009E9AC5 /* GameConstant.swift */,
 				AEFFB2351D1484AD00604D09 /* LaunchViewContoller.swift */,
 				AEF9959B1C55192400CDD84B /* Assets.xcassets */,
 				AE96CF331C2202740064D380 /* Game.xcassets */,
@@ -203,7 +226,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE96CF2C1C2202740064D380 /* AppDelegate.swift in Sources */,
+				AE3229891D149400009E9AC5 /* Asteroid.swift in Sources */,
+				AE32298C1D149400009E9AC5 /* GameElement.swift in Sources */,
+				AE32298B1D149400009E9AC5 /* Bullet.swift in Sources */,
+				AE32298A1D149400009E9AC5 /* Spaceship.swift in Sources */,
 				AEFFB2361D1484AD00604D09 /* LaunchViewContoller.swift in Sources */,
+				AE32298F1D149422009E9AC5 /* GameConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
