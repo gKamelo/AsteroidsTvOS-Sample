@@ -17,6 +17,7 @@
 		AE3229951D14959F009E9AC5 /* GameInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3229921D14959F009E9AC5 /* GameInput.swift */; };
 		AE32299B1D149709009E9AC5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3229981D149709009E9AC5 /* GameScene.swift */; };
 		AE32299C1D149709009E9AC5 /* AsteroidsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3229991D149709009E9AC5 /* AsteroidsGenerator.swift */; };
+		AE32299E1D149840009E9AC5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE32299D1D149840009E9AC5 /* GameViewController.swift */; };
 		AE96CF2C1C2202740064D380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE96CF2B1C2202740064D380 /* AppDelegate.swift */; };
 		AE96CF341C2202740064D380 /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE96CF331C2202740064D380 /* Game.xcassets */; };
 		AE96CF371C2202740064D380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE96CF351C2202740064D380 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		AE3229921D14959F009E9AC5 /* GameInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameInput.swift; sourceTree = "<group>"; };
 		AE3229981D149709009E9AC5 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		AE3229991D149709009E9AC5 /* AsteroidsGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsteroidsGenerator.swift; sourceTree = "<group>"; };
+		AE32299D1D149840009E9AC5 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		AE7A44F61C516F7700B55A16 /* AsteroidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsteroidsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE7A44FA1C516F7700B55A16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE96CF281C2202740064D380 /* Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +132,7 @@
 				AE3229991D149709009E9AC5 /* AsteroidsGenerator.swift */,
 				AE32298E1D149422009E9AC5 /* GameConstant.swift */,
 				AE3229981D149709009E9AC5 /* GameScene.swift */,
+				AE32299D1D149840009E9AC5 /* GameViewController.swift */,
 				AEFFB2351D1484AD00604D09 /* LaunchViewContoller.swift */,
 				AEF9959B1C55192400CDD84B /* Assets.xcassets */,
 				AE96CF331C2202740064D380 /* Game.xcassets */,
@@ -252,6 +255,7 @@
 				AE3229941D14959F009E9AC5 /* KeyboardInputResolver.swift in Sources */,
 				AE3229891D149400009E9AC5 /* Asteroid.swift in Sources */,
 				AE3229931D14959F009E9AC5 /* RemoteInputResolver.swift in Sources */,
+				AE32299E1D149840009E9AC5 /* GameViewController.swift in Sources */,
 				AE32298C1D149400009E9AC5 /* GameElement.swift in Sources */,
 				AE32298B1D149400009E9AC5 /* Bullet.swift in Sources */,
 				AE32299B1D149709009E9AC5 /* GameScene.swift in Sources */,

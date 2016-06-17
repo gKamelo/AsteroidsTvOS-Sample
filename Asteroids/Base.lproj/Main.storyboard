@@ -20,6 +20,9 @@
                                 <rect key="frame" x="862" y="500" width="196" height="86"/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="Play"/>
+                                <connections>
+                                    <segue destination="XOL-Md-4Qj" kind="show" id="bCh-9Z-XbA"/>
+                                </connections>
                             </button>
                         </subviews>
                     </view>
@@ -27,6 +30,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4RG-v4-LEp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="471" y="-610"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="toh-05-sjZ">
+            <objects>
+                <viewController id="XOL-Md-4Qj" customClass="GameViewController" customModule="Asteroids" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MO6-Hj-7W6"/>
+                        <viewControllerLayoutGuide type="bottom" id="bWE-13-1fC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nxr-UF-kI0" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yff-mj-Rzh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="471" y="670"/>
         </scene>
     </scenes>
 </document>
